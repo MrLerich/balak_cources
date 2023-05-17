@@ -40,3 +40,10 @@ print(sum(map(int, c)))  # text)))  # делаем каждый элт в спи
 
 
 # (lambda x: print(sum(list(map(int, x.replace(' ', '').replace('-', '+-').split('+')))))if not x.startswith('-') else print(sum(list(map(int, x.replace(' ', '').replace('-', '+-')[1:].split('+'))))))(input())
+
+# e = map(int, input().replace(' ', '').replace('+', ' +').replace('-', ' -').split())
+# print(sum(e))
+
+# print(eval(input()))
+
+# exec(f"print({input()})")
